@@ -28,7 +28,7 @@ function same(arr1, arr2){
         if(!((key**2) in obj2)){
             return false;
         }
-        if(obj2[key] !== obj1[key]){
+        if(obj2[key ** 2] !== obj1[key]){
             return false;
         }
     }
